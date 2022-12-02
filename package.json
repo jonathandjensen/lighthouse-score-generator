@@ -1,0 +1,30 @@
+{
+  "name": "ct-content-conversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "start": "node index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": false
+  },
+  "dependencies": {
+    "@contentstack/management": "^1.3.1",
+    "dotenv": "^8.2.0",
+    "glob-promise": "^4.2.2",
+	  "json2csv": "^5.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5"
+  }
+}
